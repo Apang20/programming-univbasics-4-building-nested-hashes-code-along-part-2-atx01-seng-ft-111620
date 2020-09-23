@@ -56,7 +56,11 @@ def add_characters
 
    # Write code below that does the following programmatically:
    
-   [:additional_characters] =>[{name: "Prince Escalus"}, {name: "Apothecary"}]
+   #epic_tragedy[:additional_characters] =>[{name: "Prince Escalus"}, {name: "Apothecary"}]
+   
+   epic_tragedy[:montague][:additional_characters] => {name: "Prince Escalus"}
+   epic_tragedy[:capulet][:additional_characters] => {name: "Apothecary"}
+   puts epic_tragedy
    
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
    # - Add two hashes to this array, both with a :name key.
