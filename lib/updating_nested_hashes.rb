@@ -58,8 +58,8 @@ def add_characters
    
    #epic_tragedy[:additional_characters] =>[{name: "Prince Escalus"}, {name: #"Apothecary"}]
    
-   epic_tragedy[:montague][:additional_characters][0][:name => "Prince Escalus"]
-   epic_tragedy[:capulet][:additional_characters][:name =>"Apothecary"]
+   epic_tragedy[:montague][:additional_characters][0] = {name: "Prince Escalus"}
+   epic_tragedy[:capulet][:additional_characters][1] = {name =>"Apothecary"}
    puts epic_tragedy
    
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
