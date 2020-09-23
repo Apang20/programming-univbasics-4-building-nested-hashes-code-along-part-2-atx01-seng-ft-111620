@@ -58,7 +58,7 @@ def add_characters
    
    #epic_tragedy[:additional_characters] =>[{name: "Prince Escalus"}, {name: #"Apothecary"}]
    
-   epic_tragedy[:montague][:additional_characters][:name => "Prince Escalus"]
+   epic_tragedy[:montague][:additional_characters][0][:name => "Prince Escalus"]
    epic_tragedy[:capulet][:additional_characters][:name =>"Apothecary"]
    puts epic_tragedy
    
